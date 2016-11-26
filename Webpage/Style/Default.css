@@ -1,0 +1,83 @@
+html
+{
+    background-image: url("../Image/uco-athletics.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    font-size: 100%;
+    scrollbar-base-color:red;
+    color:white; 
+    text-align:center;
+}
+
+label
+{
+    width: 25%;
+    display: inline-block;
+}
+
+table
+{
+	width: 80%;
+    margin: 0 auto;
+	padding: 5% 0;
+}
+
+th{ border: 1px solid white; }
+td{ border: 1px solid white; }
+
+a
+{
+	text-decoration: none;
+	color: gold;
+}
+
+#Main_Menu
+{
+    border-color: ghostwhite;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15% 15%;
+    width: 10%;
+    margin: 0 auto;
+    background-color: black;
+	display: inline-block;
+	vertical-align: top;
+	min-height: 30%;
+}
+
+#Main_Content
+{
+    border-color: ghostwhite;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15% 15%;
+    width: 50%;
+    margin: 0 auto;
+    background-color: black;
+	display: inline-block;
+	vertical-align: top;
+	min-height: 30%;
+}
+
+#Login_Form, #Password_Form
+{
+    text-align: left;
+    margin: 0 auto;
+}
+
+#Login_Form
+{
+	width: 40%;
+}
+
+#Password_Form
+{
+    width: 45%;
+}
+
+.Password_Form_Label
+{
+	width: 50% !important;
+}
